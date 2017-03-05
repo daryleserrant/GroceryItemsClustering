@@ -1,6 +1,6 @@
 # GroceryItemsClustering
 
-Clustering Grocery Items takehome challenge. From "A Collection of Data Science Takehome Challenges" by Guilio Palombo.  
+Clustering Grocery Items takehome challenge. From *A Collection of Data Science Takehome Challenges* by Guilio Palombo.  
 
 ## Challenge Description
 Company XYZ is an online grocery store. In the current version of the website, they have manually grouped the items into a few categories based on their experience.
