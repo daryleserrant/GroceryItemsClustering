@@ -18,3 +18,12 @@ founder:
 have the highest probability of being bought together. The goal of this is to replace the
 old/manually created categories with these new ones. Each item can belong to just one
 cluster.
+
+## Data
+We have two tables:
+* item_to_id - for each item, it gives the corresponding id. Columns:
+  - **item_name**: the name of the item
+  - **item_id**: the id of the item. Can be joined to the id in the other table.
+* purchase_history - for each user purchase, the items bought. Columns:
+  - **user_id**: the id of the user
+  - **id**: comma-separated list of items brought together in that transaction
